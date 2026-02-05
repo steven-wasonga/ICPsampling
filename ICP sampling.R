@@ -1,7 +1,7 @@
 # Geographically regulated sampling (ICP design)
 # Based on: https://gh.bmj.com/content/7/10/e009500 
 
-setwd("C:/Users/HP/Documents/GNSAMPLING")
+#setwd("C:/Users/HP/Documents/GNSAMPLING")
 
 #load("ICPsampling.RData")
 
@@ -440,6 +440,7 @@ cat(
 
 #=============
 #save.image("ICPsampling.RData")
+
 
 
 
