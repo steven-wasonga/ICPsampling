@@ -1,8 +1,6 @@
 # Geographically regulated sampling (ICP design)
 # Based on: https://gh.bmj.com/content/7/10/e009500 
-
 #setwd("C:/Users/HP/Documents/GNSAMPLING")
-
 #load("ICPsampling.RData")
 
 # Load libraries
@@ -19,8 +17,6 @@ set.seed(9365)
 
 
 # 1. LOAD AND PREPARE DATA
-
-
 # Load village data
 kenya_villagesraw <- st_read("kenya_villages.shp")
 kenya_villagesraw <- kenya_villagesraw |>
@@ -440,6 +436,7 @@ cat(
 
 #=============
 #save.image("ICPsampling.RData")
+
 
 
 
