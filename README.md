@@ -34,10 +34,10 @@ Adds close pairs to each primary point:
 Sampling Parameters
 ```r
  Default parameters (Adjust these based on study requirements)
-n_primary <- 150       Number of primary points
-k <- 150               Number of close pairs
-delta_km <- 40         δ (delta): Minimum distance between primary points. Larger values increase geographical spread but may make sampling more difficult.
-zeta_km <- 15          ζ (zeta): Radius for close pair selection. Smaller values capture local variation; larger values provide more flexibility in pair selection.
+n_primary <- 150       #Number of primary points
+k <- 150               #Number of close pairs
+delta_km <- 40         #δ (delta): Minimum distance between primary points. Larger values increase geographical spread but may make sampling more difficult.
+zeta_km <- 15          #ζ (zeta): Radius for close pair selection. Smaller values capture local variation; larger values provide more flexibility in pair selection.
 ```
 
 Some outputs
