@@ -429,13 +429,13 @@ cat(
   "Total number of villages selected: ", n_primary + length(pair_result$indices), "\n",
   "Minimum distance between primaries (δ): ", delta_km, " km\n",
   "Close pair radius (ζ): ", zeta_km, " km\n",
-  "\n=== SAMPLING COMPLETE ===\n",
   sep = ""
 )
 
 
 #=============
 #save.image("ICPsampling.RData")
+
 
 
 
