@@ -155,8 +155,7 @@ select_primary_points <- function(coords, n_primary, delta_m, max_attempts = 100
         point_found <- TRUE
       } else {
         # For points 2 and onward, check distance to all previously selected points
-        
-        # Calculate distances using Haversine formula (accounts for Earth's curvature)
+        # Calculate distances using Haversine formula
         distances <- distHaversine(
           candidate_coord,                           # New candidate point
           selected_coords[1:(i-1), , drop = FALSE]   # All previously selected points
@@ -435,6 +434,7 @@ cat(
 
 #=============
 #save.image("ICPsampling.RData")
+
 
 
 
