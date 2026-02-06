@@ -1,7 +1,7 @@
 Inhibitory Close Pairs (ICP) Geostatistical Sampling Implementation
 
 Overview
-This R script implements an Inhibitory Close Pairs (ICP) geostatistical sampling design based on the methodology described by Dileepa et al.,2022 BMJ Global Health (2022;7:e009500). The ICP approach allows for epidemiological surveys with similar precision to classical survey designs but with significantly smaller sample sizes, reduced travel distance, and shorter completion times.
+This R script implements an Inhibitory Close Pairs (ICP) geostatistical sampling design based on the methodology described by Ediriweera DS BMJ Global Health (2022;7:e009500). The ICP approach allows for epidemiological surveys with similar precision to classical survey designs but with significantly smaller sample sizes, reduced travel distance, and shorter completion times.
 
  Prerequisites
  Required R Packages
@@ -44,7 +44,7 @@ Some outputs
 1. sampling_map.pdf: Visual representation of sampling distribution
 2. ICP_sampled_villages.csv: Complete list of sampled villages with attributes
 
-Advantages of ICP Design (Dileepa et al., 2022)
+Advantages of ICP Design (Ediriweera DS et al,.)
 1. Reduced Sample Size: Achieves similar precision with 25% fewer samples than classical designs
 2. Geographical Balance: Prevents oversampling in dense areas and undersampling in sparse areas
 3. Efficient Travel: Reduces travel distance by >40% and survey time by >75% 
