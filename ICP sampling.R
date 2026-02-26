@@ -314,7 +314,7 @@ add_close_pairs <- function(primary_indices, primary_coords, all_coords,
 # 5. RUN ICP SAMPLING
 # Step 1: set ICP parameters
 n_primary <- 150     # Number of primary sample points
-k <- 150             # Number of close pairs 
+k <- 50             # Number of close pairs #⅓ of primary
 delta_km <- 40       # Minimum distance between primary points (km)
 delta_m <- delta_km * 1000 #since distances are measured in m
 zeta_km <- 15        # Radius for close pair selection (km)
@@ -434,6 +434,7 @@ cat(
 
 #=============
 #save.image("ICPsampling.RData")
+
 
 
 
